@@ -245,7 +245,15 @@ background-repeat: no-repeat;
       background: #030712;
       color: #9ca3af;
     }
-
+.profile-image {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 30px;
+  border: 4px solid white;
+}
    @media (max-width: 700px) {
 
   header {
@@ -274,10 +282,10 @@ background-repeat: no-repeat;
     width: 100%;
   }
 
-  .hero img {
-    width: 140px !important;
-    height: 140px !important;
-  }
+  .profile-image {
+    width: 140px;
+    height: 140px;
+}
 
   .hero h1 {
     font-size: 36px;
@@ -344,14 +352,9 @@ background-repeat: no-repeat;
 
   <div class="hero-content">
 
-    <img src="Mesay%20profile.jpg" 
-         alt="Mesay Melese Profile"
-         style="
-         width:180px;
-         height:180px;
-         border-radius:50%;
-         object-fit:cover;
-         ">
+    <img src="Mesay%20profile.jpg"
+     alt="Mesay Melese Profile"
+     class="profile-image">
 
     <h1>Mesay Melese</h1>
 
