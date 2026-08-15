@@ -175,10 +175,17 @@ background-repeat: no-repeat;
     .project-card:last-child {
   grid-column: 1 / -1;
 }
+.project-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
 
-    .project-card h3 {
-      margin-bottom: 12px;
-    }
+.project-card h3 {
+  margin-bottom: 12px;
+}
+
+.project-card p {
+  color: #4b5563;
+}
 
     .project-card p {
       color: #4b5563;
